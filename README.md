@@ -12,6 +12,16 @@ dashboard** to identify patterns that can help the business make better decision
 
 The final project includes the complete analysis, supporting statistical work, business recommendations, and a Power BI dashboard that brings the key findings together in an interactive format.
 
+### Key Dataset Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Orders | 21,321 |
+| Unique Customers | 11,607 |
+| Restaurant Brands | 6 |
+| Unique Restaurant IDs | 21 |
+| Study Period | September 2024 – January 2025 |
+
 
 ## 2.) Business Problem
 
