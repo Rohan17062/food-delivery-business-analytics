@@ -1,17 +1,17 @@
 # Food Delivery Business Analytics
 
+
 ## 1.) Project Overview
 
 This project is an end-to-end business analytics case study based on food delivery order data from September 2024 to January 2025.
 
-The goal was to understand how the business is performing across **demand, restaurants, customers, discounts, cancellations, and operational performance**, and then turn those 
-findings into practical business recommendations.
+The goal was to understand how the business is performing across **demand, restaurants, customers, discounts, cancellations, and operational performance**, and then turn those findings into practical business recommendations.
 
 The analysis goes beyond basic exploratory data analysis. It combines **Python-based data analysis, statistical validation, driver analysis, and an interactive Power BI 
 dashboard** to identify patterns that can help the business make better decisions around customer retention, restaurant performance, demand management, and operations.
 
-The final project includes the complete analysis, supporting statistical work, business recommendations, and a Power BI dashboard that brings the key findings together in an 
-interactive format.
+The final project includes the complete analysis, supporting statistical work, business recommendations, and a Power BI dashboard that brings the key findings together in an interactive format.
+
 
 ## 2.) Business Problem
 
@@ -30,6 +30,7 @@ This project focuses on understanding the business through a few key questions :
 The aim is not just to describe these patterns, but to validate important relationships statistically, identify the key drivers and translate the findings into practical 
 business recommendations.
 
+
 ## 3.) Analytical Approach
 
 The project follows a business-first approach rather than stopping at basic data exploration.
@@ -44,6 +45,7 @@ The analysis was carried out in the following stages:
 6. **Driver Analysis** – Investigated the factors associated with key business outcomes such as cancellations, rider wait time, and customer retention.
 7. **Business Recommendations** – Converted the findings into practical recommendations based on both the evidence and their potential business impact.
 8. **Power BI Dashboard** – Built an interactive dashboard to make the main findings easier to explore and communicate.
+
 
 ## 4.) Key Business Findings
 
@@ -60,6 +62,7 @@ The analysis highlighted several important patterns across customers, demand, re
 
 These findings were used as the starting point for statistical testing, driver analysis, and the final business recommendations.
 
+
 ## 5.) Power BI Dashboard
 
 The Power BI dashboard brings the main findings from the analysis into one place and allows the business to explore them interactively.
@@ -73,6 +76,7 @@ The dashboard is divided into five main areas:
 - **Customer Value & Retention** – Looks at customer ordering frequency, order value, revenue contribution, and retention across customer cohorts.
 
 The dashboard is designed to help business users move from a high-level view of the business to specific areas that may need further attention.
+
 
 ### Dashboard Preview
 
@@ -101,6 +105,7 @@ The following screenshots show the main views of the Power BI dashboard.
 The dashboard also includes additional views for **discounts, cancellations, KPT, and customer value**. These are available in 
 the [Dashboard Screenshots](Dashboard_Screenshots/) folder.
 
+
 ## 6.) Statistical & Analytical Validation
 
 Charts and descriptive statistics were used to identify patterns, but we did not treat every visible difference as an important business finding.
@@ -113,6 +118,7 @@ treated as major business drivers. In other cases, the analysis found no meaning
 
 The detailed tests, assumptions, p-values, effect sizes, and conclusions are available in 
 the [Detailed Analytical Analysis](Documentation/Detailed%20Analytical%20Analysis.pdf) document.
+
 
 ## 7.) Business Recommendations
 
@@ -156,11 +162,12 @@ carefully because of their much lower order volumes.
 For a more detailed explanation of each recommendation, including the supporting analysis, business impact, and how the recommendations can be tested, 
 refer to the [Recommendations and Business Impact](Documentation/Food%20Delivery%20Business%20Analytics%20Case%20Study.pdf) section in the case study document.
 
+
 ## 8.) Project Structure
 
 The repository is organised into separate folders for the dashboard, analysis code, screenshots, and project documentation.
 
-
+```text
 food-delivery-business-analytics/
 │
 ├── Dashboard_Screenshots/
@@ -186,13 +193,16 @@ food-delivery-business-analytics/
 │   └── Food_Delivery_Business_Analytics_Code.ipynb
 │
 └── README.md
+```
 
-Folder Overview :
-Dashboard_Screenshots – screenshots of the different dashboard pages and views.
-Documentation – the complete case study, detailed analytical analysis, and dashboard guide.
-PowerBI – the Power BI dashboard file used for the project.
-Python – the Jupyter Notebook containing the analysis and statistical work.
-README.md – an overview of the project, key findings, recommendations, and repository contents.
+### Folder Overview
+
+- **Dashboard_Screenshots** – Screenshots of the different dashboard pages and views.
+- **Documentation** – The complete case study, detailed analytical analysis, and dashboard guide.
+- **PowerBI** – The Power BI dashboard file used for the project.
+- **Python** – The Jupyter Notebook containing the analysis and statistical work.
+- **README.md** – An overview of the project, key findings, recommendations, and repository contents.
+
 
 ## 9.) Tools & Technologies
 
@@ -203,6 +213,7 @@ README.md – an overview of the project, key findings, recommendations, and rep
 - **Power BI** – Interactive dashboard development and presentation of business insights.
 - **Jupyter Notebook** – Organising and documenting the Python-based analysis.
 - **GitHub** – Version control and project documentation.
+  
 
 ## 10.) Documentation
 
@@ -216,6 +227,7 @@ The project includes three supporting documents. Each one serves a different pur
 
 - **[Dashboard Guide and Insights](Documentation/Dashboard%20Guide%20and%20Insights.pdf)** – A short guide to the Power BI dashboard, explaining what each dashboard
   page shows and what the business can take from it.
+  
 
 ## 11.) Limitations
 
