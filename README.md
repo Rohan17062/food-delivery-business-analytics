@@ -22,6 +22,8 @@ The final project includes the complete analysis, supporting statistical work, b
 | Unique Restaurant IDs | 21 |
 | Study Period | September 2024 – January 2025 |
 
+The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/sujalsuthar/food-delivery-order-history-data).
+
 
 ## 2.) Business Problem
 
@@ -237,6 +239,28 @@ The project includes three supporting documents. Each one serves a different pur
 
 - **[Dashboard Guide and Insights](Documentation/Dashboard%20Guide%20and%20Insights.pdf)** – A short guide to the Power BI dashboard, explaining what each dashboard
   page shows and what the business can take from it.
+  
+
+### Recommended Way to Review the Project
+
+If you want to review the project from start to finish, the following order is recommended:
+
+1. **Start with the [Food Delivery Business Analytics Case Study](Documentation/Food%20Delivery%20Business%20Analytics%20Case%20Study.pdf)**  
+   This gives the overall business context, problem definition, objectives, key findings, recommendations, and limitations.
+
+2. **Explore the [Power BI Dashboard](PowerBI/Food_Delivery_Business_Analytics.pbix)**  
+   The dashboard brings the main findings together and allows you to explore the business from different perspectives. If you cannot open Power BI, the [Dashboard Screenshots](Dashboard_Screenshots/) folder provides the main views.
+
+3. **Read the [Dashboard Guide and Insights](Documentation/Dashboard%20Guide%20and%20Insights.pdf)**  
+   This explains what each dashboard page shows and what the business can take from the analysis.
+
+4. **Go through the [Detailed Analytical Analysis](Documentation/Detailed%20Analytical%20Analysis.pdf)**  
+   This contains the detailed analysis behind the key findings, including statistical testing, effect sizes, and driver analysis.
+
+5. **Review the [Python Analysis](Python/Food_Delivery_Business_Analytics_Code.ipynb)**  
+   The notebook contains the Python-based data preparation, analysis, and statistical work used in the project.
+
+This order takes you from the **business problem → analysis → statistical validation → business insights → recommendations → dashboard**.
   
 
 ## 11.) Limitations
